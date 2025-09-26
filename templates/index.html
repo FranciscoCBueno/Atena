@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atena</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">>
+</head>
+<body>
+    <div class="container">
+        <form id="email-form">
+            <textarea id="texto-email" name="texto" placeholder="Cole o conteúdo do email aqui..."></textarea>
+            <div class="upload-area">
+                <label for="arquivo-email">Ou faça upload de um arquivo:</label>
+                <input type="file" id="arquivo-email" name="arquivo" accept=".txt,.pdf">
+            </div>
+            <button type="submit">Analisar Email</button>
+        </form>
+
+        <div id="loading" class="hidden">Analisando... Por favor, aguarde.</div>
+
+        <div id="results" class="hidden">
+            <h2>Resultados da Análise</h2>
+            <div class="result-item">
+                <strong>Categoria:</strong>
+                <span id="resultado-categoria"></span>
+            </div>
+            <div class="result-item">
+                <strong>Sugestão de Resposta:</strong>
+                <p id="resultado-sugestao"></p>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
