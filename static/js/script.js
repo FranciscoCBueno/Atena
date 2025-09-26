@@ -1,14 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('email-form');
     const loadingDiv = document.getElementById('loading');
-    const resultsDiv = document.getElementById('results');
+    const resultsDiv = document.getElementById('results-container');
     const categoriaSpan = document.getElementById('resultado-categoria');
     const sugestaoP = document.getElementById('resultado-sugestao');
 
     form.addEventListener('submit', async (event) => {
         event.preventDefault();
 
-        // Mostra o loading e esconde resultados antigos
         loadingDiv.classList.remove('hidden');
         resultsDiv.classList.add('hidden');
 
@@ -16,7 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const formData = new FormData(form);
 
         try {
-            // Chamada para a análise
             const response = await fetch('/analyze', {
                 method: 'POST',
                 body: formData
@@ -28,11 +26,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const data = await response.json();
 
-            // Atualiza a página com os resultados
-            categoriaSpan.textContent = data.categoria || 'N/A';
+            categoriaSpan.textContent = data?.categoria?.toLowerCase() || 'N/A';
             sugestaoP.textContent = data.sugestao || 'N/A';
             
-            // Mostra os resultados
             resultsDiv.classList.remove('hidden');
 
         } catch (error) {
@@ -40,8 +36,29 @@ document.addEventListener('DOMContentLoaded', () => {
             sugestaoP.textContent = 'Ocorreu um erro ao processar a solicitação. Tente novamente.';
             resultsDiv.classList.remove('hidden');
         } finally {
-            // Esconde o loading em qualquer caso (sucesso ou erro)
             loadingDiv.classList.add('hidden');
+        }
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const fileInput = document.getElementById('arquivo-email');
+    const fileNameDisplay = document.getElementById('file-name');
+
+    fileInput.addEventListener('change', () => {
+        if (fileInput.files.length > 0) {
+            let fileName = fileInput.files[0].name;
+            const maxLength = 15;
+
+            if (fileName.length > maxLength) {
+                const start = fileName.substring(0, 7);
+                const end = fileName.substring(fileName.length - 5);
+                fileName = `${start}...${end}`;
+            }
+            
+            fileNameDisplay.textContent = fileName;
+        } else {
+            fileNameDisplay.textContent = 'Nenhum arquivo selecionado';
         }
     });
 });
