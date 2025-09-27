@@ -5,12 +5,32 @@
 }
 
 body {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background: linear-gradient(44deg,rgba(0, 17, 28, 1) 0%, rgba(57, 87, 168, 1) 50%, rgba(0, 84, 87, 1) 100%);
     font-size: 14px;
     height: 100vh;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background-color: rgba(180, 180, 255, 0.3);
+}
+
+#logo {
+    transition: transform 0.1s;
+    cursor: pointer;
+}
+
+#logo:hover {
+    transform: scale(1.1);
 }
 
 .container {
@@ -19,14 +39,45 @@ body {
     align-items: center;
     justify-content: center;
     color: white;
-    padding: 5rem;
+    padding: 0 2rem 1rem;
     background-color: rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(10px);
     border-radius: 10px;
+    max-width: 60%;
 }
 
 .hidden {
     display: none;
+}
+
+#selections {
+    display: flex;
+    gap: 1px;
+    margin-top: 0.3rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+#btn-texto, #btn-arquivo {
+    height: 2.2rem;
+    width: 5rem;
+    border: none;
+    cursor: pointer;
+}
+
+#btn-texto {
+    border-radius: 8px 0 0 8px;
+}
+
+#btn-arquivo {
+    border-radius: 0 8px 8px 0;
+}
+
+#btn-texto:hover, #btn-arquivo:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.selected-btn {
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 #email-form {
@@ -35,29 +86,45 @@ body {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    height: 300px;
+    height: fit-content;
+    margin: 1rem;
+    margin-bottom: 0;
+    width: 400px;
+}
+
+#container-texto, #container-arquivo {
+    width: 100%;
+    max-width: 520px;
 }
 
 #texto-email {
     width: 100%;
     height: 100%;
+    min-height: 230px;
     border-radius: 10px;
     padding: 10px;
     box-sizing: border-box;
     border: none;
+    resize: none;
 }
 
-.upload-area {
+#texto-email:focus {
+    outline: 1px solid #333;
+}
+
+#container-arquivo {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#upload-area {
     display: flex;
     gap: 10px;
     align-items: center;
-    justify-content: space-around;
-    background-color: white;
+    justify-content: space-between;
     color: black;
-    padding: 10px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    max-width: 520px;
 }
 
 #arquivo-email {
@@ -93,20 +160,30 @@ body {
     background-color: #121212;
     color: white;
     cursor: pointer;
+    margin-top: 0.5rem;
 }
 
 #analisar-btn:hover {
     background-color: #212121;
 }
 
+#aviso-arquivos, #aviso-vazio {
+    color: white;
+    border: 1px solid white;
+    padding: 3px;
+    background-color: red;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
 #loading {
     padding: 10px;
-    margin: 10px;
-    margin-top: 2rem;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: #121212;
     border-radius: 10px;
     font-style: italic;
+    margin-top: 1rem;
 }
 
 #loading-content {
@@ -116,8 +193,8 @@ body {
 }
 
 #loading-icon{
-    border: 1px solid white;
-    border-top: 1px solid black;
+    border: 2px solid white;
+    border-top: 1px solid #121212;
     border-radius: 50%;
     width: 15px;
     height: 15px;
@@ -134,14 +211,16 @@ body {
 #results-container {
     background-color: white;
     color: black;
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 10px;
     border-radius: 10px;
 }
 
 #results-container h2 {
     text-align: center;
-    margin-bottom: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #333;
 }
 
 #results {
@@ -152,4 +231,19 @@ body {
 
 #resultado-categoria {
     font-style: italic;
+}
+
+.result-item {
+    display: flex;
+    max-width: 400px;
+    flex-wrap: wrap;
+}
+
+#sugestao-resposta {
+    display: flex;
+    flex-direction: column;
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 10px;
+    box-sizing: border-box;
 }

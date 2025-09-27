@@ -7,18 +7,32 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
+    <header class="navbar">
+        <img src="{{ url_for('static', filename='img/atena-logo.png') }}" alt="atena logo" height="50" id="logo">
+    </header>
     <div class="container">
+        <div id="selections">
+            <button id="btn-texto" class="selected-btn">Texto</button>
+            <button id="btn-arquivo">Arquivo</button>
+        </div>
         <form id="email-form">
-            <textarea id="texto-email" name="texto" placeholder="Cole o conteúdo do email aqui..."></textarea>
-            <div class="upload-area">
-                <span>Ou faça upload de um arquivo:</span>
-                <input type="file" id="arquivo-email" name="arquivo" accept=".txt,.pdf" value="Escolher arquivo">
-                <label for="arquivo-email" id="procurar-btn">Procurar</label>
+            <div id="container-texto">
+                <textarea id="texto-email" name="texto" placeholder="Cole o conteúdo do email aqui..."></textarea>
+            </div>
+            <div id="container-arquivo" class="hidden">
+                <div id="upload-area">
+                    <span>Faça upload de um arquivo:</span>
+                    <input type="file" id="arquivo-email" name="arquivo" accept=".txt,.pdf">
+                    <label for="arquivo-email" id="procurar-btn">Selecionar</label>
+                </div>
                 <span id="file-name" class="file-name-display"></span>
             </div>
             <button type="submit" id="analisar-btn">Analisar Email</button>
         </form>
 
+        <p id="aviso-arquivos" class="hidden">Atenção: insira apenas o texto ou um arquivo</p>
+        <p id="aviso-vazio" class="hidden">Atenção: nenhum texto ou arquivo inserido</p>
+        
         <div id="loading" class="hidden">
             <div id="loading-content">
                 Analisando... Por favor, aguarde.
@@ -30,10 +44,9 @@
             <h2>Resultados da Análise</h2>
             <div id="results">
                 <div class="result-item">
-                    <span>Este e-mail é</span>
-                    <span id="resultado-categoria"></span>
+                    <span>Este e-mail é <span id="resultado-categoria"></span></span>
                 </div>
-                <div class="result-item">
+                <div class="result-item" id="sugestao-resposta">
                     <strong>Sugestão de Resposta:</strong>
                     <p id="resultado-sugestao"></p>
                 </div>
