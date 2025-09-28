@@ -1,0 +1,11 @@
+flask
+python-dotenv
+werkzeug
+PyPDF2
+google-generativeai
+requests
+openai
+joblib
+spacy
+nltk
+scikit-learn
