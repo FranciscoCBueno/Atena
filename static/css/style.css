@@ -153,6 +153,13 @@ body {
     color: #555;
 }
 
+#seletor-modelo {
+    background-color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+
 #analisar-btn {
     padding: 10px;
     border: none;

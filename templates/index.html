@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-    <header class="navbar">
+    <navbar class="navbar">
         <img src="{{ url_for('static', filename='img/atena-logo.png') }}" alt="atena logo" height="50" id="logo">
-    </header>
+    </navbar>
     <div class="container">
         <div id="selections">
             <button id="btn-texto" class="selected-btn">Texto</button>
@@ -26,6 +26,15 @@
                     <label for="arquivo-email" id="procurar-btn">Selecionar</label>
                 </div>
                 <span id="file-name" class="file-name-display"></span>
+            </div>
+            <div class="container-seletor">
+                <label for="seletor-modelo">Escolha o modelo de IA a ser usado: </label>
+                <select name="model" id="seletor-modelo">
+                    <option value="geminipro" selected>Gemini 2.5 Pro</option>
+                    <option value="geminiflash">Gemini 2.5 Flash</option>
+                    <option value="openai">GPT 3.5 Turbo</option>
+                    <option value="huggingface">Hugging Face</option>
+                </select>
             </div>
             <button type="submit" id="analisar-btn">Analisar Email</button>
         </form>

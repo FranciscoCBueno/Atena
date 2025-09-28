@@ -1,7 +1,7 @@
 import google.generativeai as genai
 from .ai_service import AIService
 
-class GeminiProService(AIService):
+class GeminiFlashService(AIService):
     def __init__(self, api_key: str):
         genai.configure(api_key=api_key)
         generation_config = {
@@ -11,7 +11,7 @@ class GeminiProService(AIService):
             "max_output_tokens": 2048,
         }
         self.model = genai.GenerativeModel(
-            model_name="gemini-2.5-pro",
+            model_name="gemini-2.5-flash",
             generation_config=generation_config
         )
 
