@@ -1,0 +1,92 @@
+Assunto,Corpo,Categoria
+Dúvida Urgente sobre Faturamento,"Olá, equipe. Estou com uma dúvida no faturamento do cliente XYZ, a fatura com vencimento para amanhã parece incorreta. Poderiam verificar o valor para mim, por favor? Anexo a fatura.",Produtivo
+Problema ao acessar o sistema,"Prezados, não estou conseguindo fazer login na plataforma desde as 10h. A página exibe um erro '503'. Preciso de acesso para fechar um relatório importante. Podem me ajudar?",Produtivo
+Reunião de Alinhamento Semanal,"Oi, pessoal. Gostaria de agendar nossa reunião de alinhamento para amanhã, às 14h, para discutirmos o andamento do projeto Alfa. Por favor, confirmem a presença.",Produtivo
+Parabéns pela promoção!,"Oi, Joana! Fiquei muito feliz em saber da sua promoção. Mais do que merecido! Muito sucesso nessa nova fase. Abraços!",Improdutivo
+Agradecimento,"Carlos, muito obrigado pela ajuda com a apresentação de ontem. Sua contribuição foi fundamental para o sucesso. Valeu mesmo!",Improdutivo
+Atualização do Caso #8765,"Bom dia. Apenas para informar que a solicitação do cliente no ticket #8765 foi atendida e o caso já pode ser encerrado. Nenhuma ação adicional é necessária.",Produtivo
+Festa de Fim de Ano da Empresa,"Lembrete a todos: nossa festa de fim de ano será na próxima sexta-feira! Contamos com a presença de vocês para celebrar mais um ano de conquistas!",Improdutivo
+Solicitação de Relatório de Vendas,"Boa tarde, Ana. Você poderia me enviar o relatório consolidado de vendas do último trimestre até o final do dia de hoje? Preciso dele para uma reunião com a diretoria amanhã.",Produtivo
+Newsletter de Tecnologia – Setembro,"Fique por dentro das últimas tendências em Inteligência Artificial e Machine Learning em nossa newsletter mensal. Confira os artigos selecionados!",Improdutivo
+Feedback sobre o documento 'Plano de Marketing',"Equipe, por favor, revisem o rascunho do Plano de Marketing anexo e enviem seus feedbacks e sugestões até a próxima quarta-feira. Obrigado.",Produtivo
+Ausência Temporária,"Estarei fora do escritório hoje à tarde para uma consulta médica e retornarei amanhã. Para assuntos urgentes, por favor, contatem o colega João.",Improdutivo
+Aprovação Pendente: Despesa de Viagem,"Olá, gestor. O relatório de despesas da minha última viagem a São Paulo está aguardando sua aprovação no sistema. Poderia verificar, por favor?",Produtivo
+Relatório de Bug: Erro no login,"Estou reportando um erro crítico na tela de login para usuários com perfil 'Convidado'. Eles estão recebendo uma página em branco após a autenticação. A prioridade é alta.",Produtivo
+Vaga de Café da Manhã na Terça,"Pessoal, quem topa um café da manhã na padaria da esquina na terça-feira para começar bem o dia? Sem compromisso!",Improdutivo
+Compartilhando um artigo interessante,"Oi, time. Vi este artigo sobre as novas tendências de mercado e achei que vocês poderiam gostar. Leitura para o fim de semana! [link]",Improdutivo
+Follow-up: Documentação do Projeto Z,"Bom dia, Maria. Você teve a chance de revisar a documentação que enviei na semana passada? Aguardo seu feedback para podermos avançar para a próxima fase.",Produtivo
+Alerta: O servidor de testes ficará offline,"Atenção: O servidor de testes (staging) será reiniciado hoje às 17h para uma atualização de segurança. O serviço ficará indisponível por aproximadamente 15 minutos.",Improdutivo
+Ação necessária: Atualize sua senha,"Sua senha de rede irá expirar em 3 dias. Por favor, clique no link a seguir para atualizá-la e garantir o acesso contínuo aos nossos sistemas.",Produtivo
+Feliz Aniversário!,"Passando para te desejar um feliz aniversário, com muita saúde, paz e sucesso! Que seu dia seja incrível. Grande abraço!",Improdutivo
+Confirmação de recebimento,"Recebido, Marcos. Vou analisar o documento e retorno em breve. Obrigado.",Improdutivo
+Dúvida sobre a API de Clientes,"Estou com uma dúvida sobre o endpoint `GET /clientes/{id}`. A documentação diz que ele retorna o campo 'status', mas não estou recebendo essa informação na resposta. Isso é esperado?""",Produtivo
+Alocação de Tarefa: Criar layout da página inicial,"Oi, Ricardo. A tarefa #1134 (Criar o layout da nova página inicial) foi atribuída a você no nosso sistema de projetos. O prazo é até a próxima sexta.",Produtivo
+Pesquisa de Clima Organizacional,"Sua opinião é muito importante para nós! Participe da nossa pesquisa anual de clima organizacional e nos ajude a construir um ambiente de trabalho cada vez melhor.",Improdutivo
+Cancelamento da Reunião de Marketing,"Atenção: A reunião de marketing agendada para hoje às 15h foi cancelada. Um novo convite será enviado em breve.",Improdutivo
+Urgente: Cliente com problema no pagamento,"Time de suporte, o cliente da Empresa ABC (ID 556) está relatando que não consegue finalizar o pagamento via cartão de crédito. Precisamos de uma solução urgente.",Produtivo
+Boas-vindas ao novo membro da equipe!,"Vamos todos dar as boas-vindas à Sofia, nossa nova analista de dados! Ela começa hoje. Desejamos muito sucesso a ela em nossa equipe!",Improdutivo
+Preciso do logo em alta resolução,"Olá, design. Poderiam me enviar o arquivo do nosso logo em formato vetorial (SVG ou AI) com fundo transparente? Preciso para um material de impressão.",Produtivo
+Convocação para Treinamento Obrigatório,"Lembramos que o treinamento de Compliance é obrigatório para todos os colaboradores e deve ser concluído até o dia 30. Acesse a plataforma de E-learning para iniciar.",Produtivo
+Vaga disponível no estacionamento,"Pessoal, para quem interessar, uma vaga no estacionamento do prédio ficou disponível para aluguel. Falar com o RH para mais detalhes.",Improdutivo
+Revisão de Código (Pull Request #241),"Oi, dev. Por favor, revise meu pull request referente à correção do bug de cache. Adicionei testes unitários para validar o comportamento esperado.",Produtivo
+Obrigado a todos pela participação no evento,"Gostaria de agradecer imensamente a presença e a energia de todos no nosso evento de ontem. Foi um sucesso graças a vocês!",Improdutivo
+Solicitação de Acesso ao Repositório,"Olá, time de TI. Preciso de permissão de leitura e escrita no repositório 'Projeto-Titan' no GitLab. Meu usuário é 'carlos.silva'. É para uma nova demanda que recebi.",Produtivo
+Alerta de Inatividade do Sistema,"Nosso sistema de monitoramento detectou que o serviço de pagamentos está inativo há 10 minutos. Investigação imediata necessária.",Produtivo
+Fotos do nosso último happy hour!,"Oi, pessoal! Seguem as fotos do nosso encontro de sexta-feira. Foi muito divertido! Abraços.",Improdutivo
+Lembrete: Feriado na próxima semana,"Apenas um lembrete amigável de que na próxima segunda-feira será feriado e não haverá expediente. Aproveitem para descansar!",Improdutivo
+Revisão de Documento Legal,"Jurídico, poderiam revisar a cláusula 4.2 do contrato anexo? Precisamos garantir que estamos em conformidade antes de enviar ao cliente. Prazo: amanhã, 12h.",Produtivo
+Quem quer almoçar fora hoje?,"Estou pensando em ir àquele restaurante novo na rua de trás hoje. Alguém mais se anima a ir junto por volta do meio-dia?",Improdutivo
+Status da Entrega - Pedido #99012,"Gostaria de saber qual é o status atual da entrega para o pedido #99012. O cliente está perguntando e não encontro a informação no painel.",Produtivo
+Parabéns pelo trabalho no projeto Ômega!,"Queria apenas parabenizar a todos os envolvidos no projeto Ômega. A entrega foi impecável e o cliente está muito satisfeito. Ótimo trabalho, time!",Improdutivo
+Definição de Prazos para a Sprint 12,"Equipe, precisamos definir os prazos finais para as tarefas da Sprint 12. Por favor, atualizem suas estimativas no Jira até o final do dia para nossa reunião de amanhã.",Produtivo
+Seu chamado (#45321) foi atualizado,"Olá. O chamado referente ao 'Problema com a impressora' foi atualizado. Um técnico foi acionado. Nenhuma ação é necessária de sua parte no momento.",Improdutivo
+Pedido de Compra Aguardando Aprovação,"Seu pedido de compra para um novo monitor está aguardando aprovação gerencial. Você será notificado assim que o status mudar.",Improdutivo
+Dúvida sobre Política de Férias,"RH, estou com uma dúvida sobre o agendamento de férias. É possível dividir meus 30 dias em três períodos de 10 dias? Aguardo esclarecimento.",Produtivo
+Conclusão do Treinamento de Segurança,"Parabéns! Você concluiu com sucesso o treinamento de Segurança da Informação. Seu certificado já está disponível na plataforma.",Improdutivo
+Brainstorm para o novo produto,"Vamos marcar uma sessão de brainstorm para ideias do novo produto? Sugiro quinta-feira à tarde. Por favor, respondam com os horários em que estão livres.",Produtivo
+Achados e Perdidos: Encontrei um guarda-chuva,"Pessoal, encontrei um guarda-chuva preto na sala de reuniões 3. Deixei na recepção, caso alguém tenha perdido.",Improdutivo
+URGENTE: Falha na integração com parceiro,"Detectamos uma falha crítica na API de integração com o parceiro LogMax. Todas as novas vendas estão paradas. Equipe de plantão, por favor, investigar imediatamente.",Produtivo
+Obrigado pelo feedback,"Muito obrigado pelo seu feedback detalhado sobre a proposta. Vou ajustar os pontos que você mencionou e envio uma nova versão em breve.",Improdutivo
+Disponibilidade para call com Cliente XPTO,"Ana, o cliente XPTO quer marcar uma conversa para esta semana para discutir os próximos passos. Quais dias e horários você teria disponível?",Produtivo
+Nova versão do App disponível para teste,"A versão 2.5 do nosso aplicativo mobile acaba de ser liberada no ambiente de testes. Por favor, foquem em validar as novas funcionalidades de checkout.",Produtivo
+Estou saindo de férias!,"Olá, time. A partir de amanhã, estarei de férias, com retorno previsto para o dia 15. Para assuntos urgentes, por favor, procurem a Beatriz. Até a volta!",Improdutivo
+Validação de Endereço de Entrega,"Prezado cliente, não conseguimos validar o endereço fornecido no seu último pedido (nº 78910). Por favor, confirme se o CEP e o número estão corretos para evitarmos atrasos.",Produtivo
+Alinhamento sobre Requisitos do Módulo de Pagamentos,"Time de desenvolvimento, preciso de 30 minutos na agenda de vocês amanhã para esclarecer alguns requisitos técnicos sobre a integração com o novo gateway de pagamento.",Produtivo
+Pesquisa Rápida: Qual o melhor café?,"Pessoal do andar, estamos pensando em trocar a marca de café da nossa máquina. Respondam a esta pesquisa rápida de 2 perguntas para nos ajudar a decidir!",Improdutivo
+Notificação de Build: Sucesso!,"O build #1701 do projeto 'Frontend-Web' foi concluído com sucesso. Nenhuma ação é necessária.",Improdutivo
+FYI: Matéria sobre nossa empresa na mídia,"Para conhecimento de todos, saímos em uma matéria no portal TechNews hoje. Ótima visibilidade para a marca! [link]",Improdutivo
+Preciso de um voluntário para testar em ambiente beta,"Estamos prestes a lançar uma nova funcionalidade e precisamos de um voluntário (não-técnico) para um teste rápido no ambiente beta. Quem pode ajudar?",Produtivo
+Desejos de um ótimo final de semana!,"Passando para desejar a todos um excelente e merecido final de semana. Descansem bastante! Nos vemos na segunda.",Improdutivo
+Ação Requerida: Preenchimento do Ponto,"Seu registro de ponto da última quarta-feira está incompleto. Por favor, acesse o sistema e realize o ajuste necessário até o final do dia para evitar problemas na folha de pagamento.",Produtivo
+Venda de itens de escritório usados,"Estou me mudando de casa e vendendo uma cadeira de escritório e um monitor extra. Se alguém tiver interesse, me chame no privado para mais detalhes.",Improdutivo
+Escalonamento: Cliente VIP com sistema fora do ar,"Atenção, Suporte N2. O cliente 'Global Corp' (VIP) está com o sistema de produção totalmente inoperante. O problema precisa ser tratado com prioridade máxima. Entrem em contato imediatamente.",Produtivo
+Confirmação de Agendamento - Manutenção,"Olá, este email confirma o agendamento da manutenção do seu ar condicionado para a próxima terça-feira, às 10h. Um técnico uniformizado irá até o local.",Produtivo
+Nova Política de Home Office,"Prezados, anexamos a este email a nova política de trabalho remoto, que entrará em vigor a partir do próximo mês. A leitura é recomendada a todos.",Improdutivo
+Lembrete: Atualização de software hoje à noite,"Lembramos que uma atualização programada ocorrerá em nossos servidores hoje, a partir das 22h. A plataforma poderá apresentar instabilidade durante a janela de manutenção.",Improdutivo
+Discussão sobre arquitetura do microsserviço de usuários,"Devs, abri uma discussão no nosso canal do Slack para debatermos a melhor abordagem para a arquitetura do novo microsserviço de usuários. Por favor, deixem suas opiniões lá.",Produtivo
+Buscando recomendações de restaurantes,"Alguém conhece um bom restaurante italiano perto do escritório para um jantar de comemoração? Agradeço as sugestões!",Improdutivo
+Ata da Reunião de Kick-off,"Segue anexa a ata da nossa reunião de kick-off do Projeto Hélio. Por favor, revisem seus respectivos itens de ação e os prazos associados.",Produtivo
+Seu acesso à plataforma foi revogado,"Olá. Informamos que seu acesso de teste à nossa plataforma expirou hoje, conforme o período de 14 dias. Para continuar utilizando, considere um de nossos planos.",Improdutivo
+Convite para Beta Test do Novo Dashboard,"Você foi convidado para participar do teste beta do nosso novo dashboard de métricas. Seu feedback é crucial. Por favor, siga as instruções no link para começar.",Produtivo
+Perdi meu crachá,"Pessoal, acho que perdi meu crachá em algum lugar entre a copa e a sala de reuniões 5. Se alguém encontrar, por favor, me avise.",Improdutivo
+Revisão Orçamentária Q4,"Financeiro, preciso que revisem a proposta de orçamento para o último trimestre (Q4) que submeti ontem. Temos um prazo apertado para a aprovação final com a diretoria.",Produtivo
+Solicitação de Análise de Causa Raiz,"Ocorreu uma falha no job noturno de processamento de dados (ID #J78-11). Por favor, investiguem a causa raiz e apresentem um plano de ação para evitar reincidência até sexta-feira.",Produtivo
+Alerta de Segurança: Atualização de biblioteca necessária,"Uma vulnerabilidade crítica (CVE-2025-xxxx) foi encontrada na biblioteca 'common-utils' v1.2 que usamos. Todos os projetos devem ser atualizados para a v1.3 com urgência.",Produtivo
+Organizando o Amigo Secreto de Fim de Ano,"Pessoal, quem quer participar do nosso tradicional amigo secreto este ano? Responda a este email até o final da semana para eu poder fazer o sorteio!",Improdutivo
+Lembrete de Aniversariantes do Mês,"Vamos celebrar! Estes são os colegas que comemoram mais um ano de vida em setembro. Não se esqueçam de dar os parabéns!",Improdutivo
+Bloqueio em tarefa - Dependência externa,"Estou bloqueado na tarefa #2045 pois dependo da liberação de acesso à API do fornecedor. Alguém pode me ajudar a agilizar esse contato?",Produtivo
+Obrigado por sua mensagem - Ausência Temporária,"Obrigado pelo seu email. Estarei em treinamento externo hoje e amanhã, com acesso limitado. Responderei assim que possível. Para urgências, contate a gerência.",Improdutivo
+Indisponibilidade Agendada do Ambiente de Homologação,"O ambiente de Homologação (QA) ficará indisponível no próximo sábado, das 8h às 12h, para aplicação de um novo pacote de sistema. Planejem seus testes de acordo.",Improdutivo
+Confirmação de participação em evento,"Agradecemos o seu interesse! Sua inscrição para o webinar 'O Futuro da IA' foi confirmada com sucesso. O link de acesso será enviado um dia antes do evento.",Improdutivo
+Poderia me enviar a apresentação?,"Oi, Joana. A sua apresentação no comitê de ontem foi excelente. Você poderia, por gentileza, me enviar o arquivo .ppt para eu usar como referência?",Produtivo
+Nova parceria firmada!,"Boas notícias! Fechamos uma nova parceria estratégica com a empresa InovaTech. Em breve, marcaremos uma reunião para apresentar os detalhes e oportunidades.",Improdutivo
+Revisão de Desempenho - Q3,"Olá. Sua avaliação de desempenho do terceiro trimestre está agendada para a próxima quinta-feira, às 11h, na sala 4. Por favor, confirme o recebimento deste convite.",Produtivo
+Compartilhando um template útil,"Time, criei um template no Confluence para documentação de projetos que pode ser útil para todos. Fiquem à vontade para usar e melhorar.",Improdutivo
+Precisamos de um parecer sobre a Lei de Proteção de Dados,"Jurídico, estamos desenvolvendo uma nova funcionalidade que coleta dados de geolocalização do usuário. Precisamos de um parecer formal sobre as implicações da LGPD neste caso.",Produtivo
+Resultado da nossa campanha de doação,"Graças à generosidade de todos, nossa campanha de doação de agasalhos foi um sucesso absoluto! Arrecadamos mais de 300 peças. Muito obrigado!",Improdutivo
+Ajuste de escopo no Projeto Centauri,"Atenção, equipe do Projeto Centauri. O cliente solicitou a remoção do requisito 'Relatório de Acessos'. Por favor, atualizem o backlog e reavaliem o esforço da sprint atual.",Produtivo
+Sua assinatura foi renovada,"Sua assinatura do plano Pro Anual foi renovada com sucesso. Você pode acessar sua fatura e gerenciar sua conta em nosso painel de controle.",Improdutivo
+Dúvida sobre o preenchimento de horas,"Como devo registrar as horas gastas em reuniões de alinhamento interno no nosso sistema de timesheet? Existe um código de projeto específico para isso?",Produtivo
+Alguém indo para a zona sul depois do trabalho?,"Pessoal, estou sem carro hoje. Por acaso alguém que mora na zona sul poderia me dar uma carona? Ajudo com o combustível!",Improdutivo
+Relatório de Despesas Rejeitado,"Seu relatório de despesas #RD445 foi rejeitado por falta de nota fiscal para o item 'Almoço com Cliente'. Por favor, anexe o comprovante e submeta novamente para aprovação.",Produtivo
+Notícias do nosso time de futebol,"Vitória! Nosso time de futebol venceu o jogo de ontem por 3 a 1 e está classificado para a semifinal do torneio interempresas! Parabéns aos jogadores!",Improdutivo
