@@ -10,6 +10,10 @@ COPY requirements.txt .
 # Instalar as dependências
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Baixa e instala os modelos de linguagem necessários
+RUN python -m spacy download pt_core_news_sm
+RUN python -c "import nltk; nltk.download('stopwords')"
+
 # Copiar o resto do código da aplicação para o diretório de trabalho
 COPY . .
 
