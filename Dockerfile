@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expor a porta em que a aplicação roda
-EXPOSE 5001
+EXPOSE 8000
 
 # Rodar a aplicação
-CMD ["python", "app.py"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8000", "--workers", "3", "app:app"]

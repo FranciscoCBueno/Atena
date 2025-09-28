@@ -9,3 +9,4 @@ joblib
 spacy
 nltk
 scikit-learn
+gunicorn
