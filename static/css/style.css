@@ -115,7 +115,7 @@ body {
     height: fit-content;
     margin: 1rem;
     margin-bottom: 0;
-    width: 400px;
+    max-width: 400px;
 }
 
 #container-texto, #container-arquivo {
@@ -279,4 +279,23 @@ body {
     padding: 5px;
     border-radius: 10px;
     box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 90%;
+        padding: 0 1rem 1rem;
+    }
+
+    #email-form {
+        margin: 1rem 0 0 0;
+    }
+
+    .container-seletor {
+        text-align: center;
+    }
+
+    #seletor-modelo {
+        margin-top: 5px;
+    }
 }
