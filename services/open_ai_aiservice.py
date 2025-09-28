@@ -7,9 +7,6 @@ class OpenAIService(AIService):
         self.model = "gpt-3.5-turbo"
 
     def classificar_email(self, conteudo_email: str) -> str:
-        """
-        Usa o modelo GPT para classificar o email.
-        """
         try:
             system_prompt = """
             Você é um especialista em análise de e-mails. Sua tarefa é seguir um processo de duas etapas.
@@ -43,9 +40,6 @@ class OpenAIService(AIService):
 
 
     def gerar_resposta(self, conteudo_email: str, classificacao: str) -> str:
-        """
-        Usa o modelo GPT para gerar uma sugestão de resposta.
-        """
         try:
             system_prompt = f"""
             Você é um assistente que escreve respostas de email curtas e profissionais.

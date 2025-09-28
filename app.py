@@ -9,7 +9,6 @@ from services.ai_factory import get_ai_service
 load_dotenv()
 app = Flask(__name__)
 
-# Configuração para uploads
 UPLOAD_FOLDER = 'uploads'
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
@@ -29,7 +28,10 @@ def index():
 @app.route('/analyze', methods=['POST'])
 def analyze():
     selected_model = request.form.get('model', 'geminipro').lower()
-    api_key = API_KEYS.get(selected_model)
+    if selected_model == 'localnlp':
+        api_key = "local"
+    else:
+        api_key = API_KEYS.get(selected_model)
 
     if not api_key:
         error_msg = f"A chave de API para o modelo '{selected_model}' não foi encontrada no arquivo .env."
@@ -81,4 +83,4 @@ def analyze():
     return jsonify({'error': 'Não foi possível extrair texto para análise'}), 400
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5001)
+    app.run(host='0.0.0.0',debug=True, port=5001)

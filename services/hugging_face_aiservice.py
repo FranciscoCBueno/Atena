@@ -39,8 +39,6 @@ class HuggingFaceService(AIService):
 
 
     def gerar_resposta(self, conteudo_email: str, classificacao: str) -> str:
-        # --- PROMPT AJUSTADO PARA O FORMATO DO ZEPHYR ---
-        # Modelos diferentes podem ter formatos de prompt ideais diferentes.
         prompt = f"""<|system|>
         Você é um assistente que escreve respostas curtas e profissionais para emails. O email foi classificado como '{classificacao}'. Escreva uma sugestão de resposta que seja um bom ponto de partida. Responda apenas com a sugestão, sem introduções.</s>
         <|user|>

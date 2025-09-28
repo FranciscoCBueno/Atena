@@ -9,6 +9,11 @@
 <body>
     <navbar class="navbar">
         <img src="{{ url_for('static', filename='img/atena-logo.png') }}" alt="atena logo" height="50" id="logo">
+        <div id="repositorio-link">
+            <a href="https://github.com/FranciscoCBueno/Atena" id="github" target="_blank">
+                <img src="{{ url_for('static', filename='img/github.png') }}" alt="GitHub logo" height="20">
+                GitHub</a>
+        </div>
     </navbar>
     <div class="container">
         <div id="selections">
@@ -34,6 +39,7 @@
                     <option value="geminiflash">Gemini 2.5 Flash</option>
                     <option value="openai">GPT 3.5 Turbo</option>
                     <option value="huggingface">Hugging Face</option>
+                    <option value="localnlp">Modelo Local</option>
                 </select>
             </div>
             <button type="submit" id="analisar-btn">Analisar Email</button>
